@@ -27,7 +27,15 @@ export default function RootLayout({ children }) {
             className=" block bg-orange-200 hover:bg-orange-300 p-4 text-xl rounded text-black "
             href="/parallel"
           >
-            Parallel Data Fetching
+            Parallel Data Fetching 
+          </Link>
+        </div>
+        <div>
+          <Link
+            className=" block bg-orange-300 hover:bg-orange-400 p-4 text-xl rounded text-black "
+            href="/parallel-best"
+          >
+            Parallel Data Fetching - Best
           </Link>
         </div>
       </div>
